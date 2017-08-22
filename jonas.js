@@ -1,4 +1,13 @@
-console.log('hello from Eileen at ' + Date())
+console.log('hello from jonas.js at ' + Date())
+
+//lala = 999
+
+// z = x + y
+
+/*
+parseFloat(x.value)
+parseFloat(x.value)
+*/
 
 if(document.getElementById('x')){
     x.size=y.size=10
@@ -23,7 +32,7 @@ listCancers=function(id){
                    xi = {id:xi[0],name:xi[1],info:xi[2]}
                    if(i==0){
                        //h +='<h2 style="color:navy">'+xi+'</h2>'
-                       h +='<h2 style="color:navy">Cancer Types</h2>'
+                       h +='<h2 style="color:navy">Cancer Study</h2>'
                    }else{
                        h +='<li id="'+xi.id+'_li">'+xi.id+': '+xi.name+'</li>'
                    }
@@ -49,7 +58,7 @@ listCancers=function(id){
 
                     }
 
-                    4
+                    
                 })
                 
             }
@@ -72,4 +81,3 @@ getSParcs2014=function(n){
       })
     
 }
-
