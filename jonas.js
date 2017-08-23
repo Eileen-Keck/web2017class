@@ -7,17 +7,16 @@ console.log('hello from jonas.js at ' + Date())
 /*
 parseFloat(x.value)
 parseFloat(x.value)
-*/
+
 
 if(document.getElementById('x')){
-    x.size=y.size=10
     x.onkeyup=y.onkeyup=function(ev){
         //console.log('you pressed x :',this)
         z.textContent=parseFloat(x.value)+parseFloat(y.value)
     }
 }
 
-
+*/
 listCancers=function(id){
     if(!id){
         console.warn('id not defined')
